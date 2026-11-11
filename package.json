@@ -1,0 +1,32 @@
+{
+  "name": "protocol-golf-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
+    "db:migrate:local": "wrangler d1 migrations apply protocol-golf-lab --local",
+    "db:migrate:remote": "wrangler d1 migrations apply protocol-golf-lab --remote",
+    "db:seed:local": "node scripts/seed.mjs --local",
+    "db:seed:remote": "node scripts/seed.mjs --remote",
+    "check": "node scripts/self-check.mjs",
+    "worker": "opennextjs-cloudflare build && wrangler dev"
+  },
+  "dependencies": {
+    "@opennextjs/cloudflare": "^1.20.16",
+    "next": "^15.5.29",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261110.1",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "5.9",
+    "wrangler": "^4.160.0"
+  }
+}

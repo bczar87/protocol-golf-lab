@@ -1,0 +1,5 @@
+NEXTJS_ENV=development
+ADMIN_TOKEN=replace-with-a-long-random-string
+# Optional. Signups stay in D1 either way. Sync runs only when both are set.
+# RESEND_API_KEY=
+# RESEND_AUDIENCE_ID=

@@ -1,0 +1,988 @@
+{
+  "checked_on": "2026-11-11",
+  "gspro_url": "https://gsprogolf.com/supported-launch-monitors/index.html",
+  "categories": [
+    {
+      "id": "hitting-mats",
+      "slug": "hitting-mats",
+      "name": "Hitting mats",
+      "summary": "Home and simulator mats. Filters follow the spec fields on each row. A blank means the source page did not say.",
+      "sort_order": 1,
+      "spec_schema": {
+        "filters": [
+          {
+            "key": "ok_on_concrete",
+            "label": "OK on concrete",
+            "type": "boolean"
+          },
+          {
+            "key": "real_tee",
+            "label": "Real tee",
+            "type": "boolean"
+          },
+          {
+            "key": "replaceable_insert",
+            "label": "Replaceable insert",
+            "type": "boolean"
+          },
+          {
+            "key": "joint_feel",
+            "label": "Joint feel",
+            "type": "text"
+          }
+        ],
+        "columns": [
+          {
+            "key": "dimensions",
+            "label": "Dimensions"
+          },
+          {
+            "key": "thickness_in",
+            "label": "Thickness (in)"
+          },
+          {
+            "key": "weight_lb",
+            "label": "Weight (lb)"
+          },
+          {
+            "key": "ok_on_concrete",
+            "label": "OK on concrete"
+          },
+          {
+            "key": "real_tee",
+            "label": "Real tee"
+          },
+          {
+            "key": "joint_feel",
+            "label": "Joint feel"
+          },
+          {
+            "key": "replaceable_insert",
+            "label": "Replaceable insert"
+          },
+          {
+            "key": "indoor_outdoor",
+            "label": "Indoor / outdoor"
+          },
+          {
+            "key": "guarantee",
+            "label": "Guarantee"
+          }
+        ]
+      }
+    },
+    {
+      "id": "launch-monitors",
+      "slug": "launch-monitors",
+      "name": "Launch monitors",
+      "summary": "Home-simulator launch monitors. Three-year cost adds a subscription only when the maker says one is required and publishes the price.",
+      "sort_order": 2,
+      "spec_schema": {
+        "filters": [
+          {
+            "key": "environment",
+            "label": "Indoor / outdoor",
+            "type": "enum",
+            "options": [
+              "indoor",
+              "outdoor",
+              "both"
+            ]
+          },
+          {
+            "key": "room_depth_ft",
+            "label": "Published room depth (ft)",
+            "type": "number"
+          },
+          {
+            "key": "data_points",
+            "label": "Data point",
+            "type": "text"
+          },
+          {
+            "key": "gspro_compatible",
+            "label": "GSPro compatible",
+            "type": "boolean"
+          }
+        ],
+        "columns": [
+          {
+            "key": "environment",
+            "label": "Environment"
+          },
+          {
+            "key": "room_depth_ft",
+            "label": "Published room depth (ft)"
+          },
+          {
+            "key": "room_depth_note",
+            "label": "Room note"
+          },
+          {
+            "key": "data_points",
+            "label": "Data points"
+          },
+          {
+            "key": "gspro_compatible",
+            "label": "GSPro"
+          },
+          {
+            "key": "gspro_note",
+            "label": "GSPro note"
+          },
+          {
+            "key": "technology",
+            "label": "Technology"
+          },
+          {
+            "key": "display",
+            "label": "Display"
+          }
+        ]
+      }
+    }
+  ],
+  "entries": [
+    {
+      "slug": "fiberbuilt-practice-station",
+      "brand": "Fiberbuilt",
+      "name": "Fiberbuilt Grass Series Practice Station",
+      "featured": true,
+      "price_cents": 24900,
+      "compare_at_cents": 49900,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://fiberbuiltgolf.com/products/practice-station",
+      "source_label": "Fiberbuilt Golf",
+      "summary": "Fiberbuilt lists this mat at $249.00, with a compare-at price of $499.00. The description gives 61 in wide by 40 in deep by 2 in high, 69 lb, and says to install it on a firm level surface like concrete.",
+      "specs": {
+        "dimensions": "61\" wide x 40\" deep x 2\" high",
+        "thickness_in": 2,
+        "weight_lb": 69,
+        "ok_on_concrete": true,
+        "real_tee": null,
+        "joint_feel": "practice without joint pain",
+        "replaceable_insert": null,
+        "indoor_outdoor": "indoors or outdoors",
+        "guarantee": "300,000-shot guarantee"
+      },
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "fiberbuilt-flight-deck",
+      "brand": "Fiberbuilt",
+      "name": "Fiberbuilt Grass Series Flight Deck with Adjustable Tee",
+      "price_cents": 9900,
+      "source_url": "https://fiberbuiltgolf.com/products/flight-deck",
+      "source_label": "Fiberbuilt Golf",
+      "summary": "Fiberbuilt lists the Flight Deck with Adjustable Tee at $99.00. The page does not state dimensions.",
+      "specs": {},
+      "compare_at_cents": null,
+      "price_notes": null,
+      "featured": false,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "fiberbuilt-studio-7x4",
+      "brand": "Fiberbuilt",
+      "name": "Fiberbuilt Grass Series Studio Golf Mat - Single Hitting - 7'x4'",
+      "featured": true,
+      "price_cents": 124900,
+      "source_url": "https://fiberbuiltgolf.com/products/studio-mat-4-x-7-gs2",
+      "source_label": "Fiberbuilt Golf",
+      "summary": "Fiberbuilt lists the single-hitting 7'x4' Studio mat at $1,249.00. The size in the product title is 7'x4'.",
+      "specs": {
+        "dimensions": "7'x4' (from the product title)"
+      },
+      "compare_at_cents": null,
+      "price_notes": null,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "fiberbuilt-hourglass-5x3",
+      "brand": "Fiberbuilt",
+      "name": "Performance Turf Series Hourglass Golf Mat Kit - 5'x3'",
+      "featured": true,
+      "price_cents": 34900,
+      "source_url": "https://fiberbuiltgolf.com/products/hourglass-performance-turf-kit-5x3",
+      "source_label": "Fiberbuilt Golf",
+      "summary": "Fiberbuilt lists the 5'x3' Performance Turf Hourglass kit at $349.00.",
+      "specs": {
+        "dimensions": "5'x3' (from the product title)"
+      },
+      "compare_at_cents": null,
+      "price_notes": null,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "sigpro-softy-4x10",
+      "brand": "SIGPRO",
+      "name": "SIGPRO Softy 4' x 10' Golf Mat",
+      "featured": true,
+      "price_cents": 89999,
+      "compare_at_cents": 119999,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://shopindoorgolf.com/products/sigpro-4x10-golf-mat",
+      "source_label": "Shop Indoor Golf",
+      "summary": "Shop Indoor Golf lists the SIGPRO Softy 4' x 10' at $899.99, compare-at $1,199.99.",
+      "specs": {
+        "dimensions": "4' x 10' (from the product title)"
+      },
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "sigpro-softy-4x7",
+      "brand": "SIGPRO",
+      "name": "SIGPRO Softy 4' x 7' Golf Mat",
+      "featured": true,
+      "price_cents": 74999,
+      "compare_at_cents": 99999,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://shopindoorgolf.com/products/sigpro-4-x-7-golf-mat",
+      "source_label": "Shop Indoor Golf",
+      "summary": "Shop Indoor Golf lists this mat at $749.99, compare-at $999.99. The description says it measures 4' x 7' x 2.5\" and weighs 21 lb, and a product image is labeled with the hitting strip removed.",
+      "specs": {
+        "dimensions": "4' x 7' x 2.5\"",
+        "thickness_in": 2.5,
+        "weight_lb": 21,
+        "ok_on_concrete": null,
+        "real_tee": true,
+        "joint_feel": "DNA-joint-friendly design",
+        "replaceable_insert": true,
+        "indoor_outdoor": "Described for a home simulator and indoor practice",
+        "guarantee": null
+      },
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "sigpro-softy-lite-4x10",
+      "brand": "SIGPRO",
+      "name": "SIGPRO Softy LITE 4' x 10' Golf Mat",
+      "price_cents": 78699,
+      "compare_at_cents": 104999,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://shopindoorgolf.com/products/sigpro-softy-lite-4-x-10-golf-mat",
+      "source_label": "Shop Indoor Golf",
+      "summary": "Shop Indoor Golf lists the Softy LITE 4' x 10' at $786.99, compare-at $1,049.99.",
+      "specs": {
+        "dimensions": "4' x 10' (from the product title)"
+      },
+      "featured": false,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "sigpro-super-softy-4x9",
+      "brand": "SIGPRO",
+      "name": "SIGPRO Super Softy 4' x 9' Golf Mat",
+      "featured": true,
+      "price_cents": 136999,
+      "source_url": "https://shopindoorgolf.com/products/sigpro-super-softy-4-x-9-golf-mat",
+      "source_label": "Shop Indoor Golf",
+      "summary": "Shop Indoor Golf lists the Super Softy 4' x 9' at $1,369.99. No separate compare-at price is shown.",
+      "specs": {
+        "dimensions": "4' x 9' (from the product title)"
+      },
+      "compare_at_cents": null,
+      "price_notes": null,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "sigpro-3d-5x5",
+      "brand": "SIGPRO",
+      "name": "SIGPRO 3D 5'x5' Golf Mat",
+      "price_cents": 39699,
+      "compare_at_cents": 52999,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://shopindoorgolf.com/products/sig-3d-golf-mat",
+      "source_label": "Shop Indoor Golf",
+      "summary": "Shop Indoor Golf lists the SIGPRO 3D 5'x5' at $396.99, compare-at $529.99.",
+      "specs": {
+        "dimensions": "5'x5' (from the product title)"
+      },
+      "featured": false,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "gosports-elite-5x4-15mm",
+      "brand": "GoSports",
+      "name": "5' x 4' Elite Golf Hitting Mat, Rectangle, 15 mm",
+      "featured": true,
+      "price_cents": 14999,
+      "source_url": "https://www.playgosports.com/products/gosports-golf-hitting-mat-5x4-artificial-turf-mat-for-indoor-outdoor-training-includes-3-rubber-tees-for-variable-heights-1",
+      "source_label": "GoSports",
+      "summary": "GoSports' product page lists the 15 mm 5' x 4' Elite mat at $149.99.",
+      "specs": {
+        "dimensions": "5' x 4', 15 mm (from the product title)"
+      },
+      "compare_at_cents": null,
+      "price_notes": null,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "gosports-elite-5x4-5mm",
+      "brand": "GoSports",
+      "name": "5' x 4' Elite Golf Hitting Mat, Rectangle, 5 mm",
+      "price_cents": 11999,
+      "source_url": "https://www.playgosports.com/products/gosports-golf-hitting-mat-5x4-artificial-turf-mat-for-indoor-outdoor-training-includes-3-rubber-tees-for-variable-heights",
+      "source_label": "GoSports",
+      "summary": "GoSports' product page lists the 5 mm 5' x 4' Elite mat at $119.99.",
+      "specs": {
+        "dimensions": "5' x 4', 5 mm (from the product title)"
+      },
+      "compare_at_cents": null,
+      "price_notes": null,
+      "featured": false,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "sklz-pure-divot-mat",
+      "brand": "SKLZ",
+      "name": "Pure Divot Mat",
+      "price_cents": 16999,
+      "source_url": "https://sklz.com/products/pure-divot-mat",
+      "source_label": "SKLZ",
+      "summary": "SKLZ lists the Pure Divot Mat at $169.99. Size figures were not in that product page.",
+      "specs": {},
+      "compare_at_cents": null,
+      "price_notes": null,
+      "featured": false,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "sklz-pure-practice-mat",
+      "brand": "SKLZ",
+      "name": "Pure Practice Mat",
+      "price_cents": 8999,
+      "source_url": "https://sklz.com/products/pure-practice-mat",
+      "source_label": "SKLZ",
+      "summary": "SKLZ lists the Pure Practice Mat at $89.99.",
+      "specs": {},
+      "compare_at_cents": null,
+      "price_notes": null,
+      "featured": false,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "rawhide-new-golf-mat",
+      "brand": "Rawhide",
+      "name": "New Golf Mat",
+      "featured": true,
+      "price_cents": 57500,
+      "source_url": "https://rawhidegolfball.com/products/golf-mat-new",
+      "source_label": "Rawhide Golf Supplies",
+      "summary": "Rawhide lists the New Golf Mat at $575.00.",
+      "specs": {},
+      "compare_at_cents": null,
+      "price_notes": null,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "holy-grail-4x5",
+      "brand": "Gungho Golf",
+      "name": "4x5' Holy Grail Hitting Mat, Single Sided for RH or LH Play",
+      "featured": true,
+      "price_cents": 74999,
+      "source_url": "https://gunghogolf.com/products/4x5-holy-grail-hitting-mat-single-sided-for-rh-or-lh-play",
+      "source_label": "Gungho Golf",
+      "summary": "Gungho Golf lists the single-sided 4x5' Holy Grail hitting mat at $749.99.",
+      "specs": {
+        "dimensions": "4x5' (from the product title)"
+      },
+      "compare_at_cents": null,
+      "price_notes": null,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "holy-grail-4x9",
+      "brand": "Gungho Golf",
+      "name": "4x9' Holy Grail Hitting Mat, Double Sided for RH or LH Play",
+      "featured": true,
+      "price_cents": 99999,
+      "source_url": "https://gunghogolf.com/products/4x9-holy-grail-hitting-mat-double-sided-for-rh-or-lh-play",
+      "source_label": "Gungho Golf",
+      "summary": "Gungho Golf lists the double-sided 4x9' Holy Grail hitting mat at $999.99.",
+      "specs": {
+        "dimensions": "4x9' (from the product title)"
+      },
+      "compare_at_cents": null,
+      "price_notes": null,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "divot-board-turf-mat",
+      "brand": "Divot Board",
+      "name": "Divot Board Turf Mat",
+      "featured": true,
+      "price_cents": 29999,
+      "compare_at_cents": 31999,
+      "price_notes": "The product HTML shows $299.99 and $319.99. It also shows $249.99, $269.99, $110, and $20, which were not assigned to this mat.",
+      "source_url": "https://www.divotboard.com/products/divot-board-turf-mat",
+      "source_label": "Divot Board",
+      "summary": "The Divot Board product page shows $299.99 and $319.99 for the turf mat. Other dollar amounts on that page were not treated as this mat's price.",
+      "specs": {
+        "dimensions": "4 by 5 (from the page title)"
+      },
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "birdieball-premium-turf-1x2",
+      "brand": "BirdieBall",
+      "name": "Premium Turf Golf Hitting Mat",
+      "price_cents": 3999,
+      "compare_at_cents": 4499,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://www.birdieball.com/products/premium-turf-golf-hitting-mat",
+      "source_label": "BirdieBall",
+      "summary": "BirdieBall lists the Premium Turf Golf Hitting Mat at $39.99, compare-at $44.99.",
+      "specs": {},
+      "featured": false,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "beaver-tail-pro",
+      "brand": "TrueBirdie",
+      "name": "Beaver Tail Pro (4ft x 5.3ft) Golf Simulator Mat",
+      "featured": true,
+      "price_cents": 59997,
+      "compare_at_cents": 69997,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://truebirdie.com/products/golf-simulator-hitting-mat-with-the-most-realistic-hitting-strip-insert-for-joint-injury-prevention-4ft-x-5-5ft",
+      "source_label": "TrueBirdie",
+      "summary": "TrueBirdie lists the Beaver Tail Pro (4ft x 5.3ft) at $599.97, compare-at $699.97.",
+      "specs": {
+        "dimensions": "4ft x 5.3ft (from the product title)"
+      },
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "hitting-mats",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "skytrak-st-max",
+      "brand": "SkyTrak",
+      "name": "SKYTRAK ST MAX Launch Monitor",
+      "featured": true,
+      "price_cents": 169500,
+      "compare_at_cents": 299500,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://www.skytrakgolf.com/products/launch-monitor",
+      "source_label": "SkyTrak",
+      "subscription_required": false,
+      "subscription_name": "SKYTRAK membership (Essential, Core, or Elite)",
+      "subscription_notes": "SkyTrak's membership page says you can use SKYTRAK at a minimal level without a membership, limited to the Driving Range with ball and club data. Plan prices were not printed on that page. The ST MAX description advertises a free year of Core Foresight through Nov 12.",
+      "subscription_source_url": "https://www.skytrakgolf.com/pages/software-membership",
+      "summary": "SkyTrak lists the ST MAX at $1,695.00, compare-at $2,995.00. The spec block on the product page says indoor use, photometric camera and dual Doppler radar, and names the ball and club metrics below.",
+      "specs": {
+        "environment": "indoor",
+        "room_depth_ft": null,
+        "room_depth_note": "The product page says the ST MAX sits beside the ball, not behind you. It does not give a single minimum room depth.",
+        "data_points": [
+          "launch angle",
+          "side angle",
+          "ball speed",
+          "back spin",
+          "side spin",
+          "descent angle",
+          "shot score",
+          "max height",
+          "carry",
+          "total distance",
+          "avg total",
+          "club head speed",
+          "club path",
+          "face to target",
+          "face to path",
+          "smash factor"
+        ],
+        "gspro_compatible": false,
+        "gspro_note": "GSPro's supported list does not include SkyTrak. It tells readers to ask companies such as SkyTrak if they want GSPro.",
+        "technology": "Photometric camera and dual Doppler radar",
+        "display": "SKYTRAK app"
+      },
+      "extra_links": [
+        {
+          "role": "subscription",
+          "href": "https://www.skytrakgolf.com/pages/software-membership",
+          "label": "SkyTrak membership page",
+          "kind": "outbound"
+        }
+      ],
+      "subscription_annual_cents": null,
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "skytrak",
+      "brand": "SkyTrak",
+      "name": "SKYTRAK Launch Monitor",
+      "featured": true,
+      "price_cents": 69500,
+      "compare_at_cents": 199500,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://www.skytrakgolf.com/products/skytrak-launch-monitor",
+      "source_label": "SkyTrak",
+      "subscription_required": false,
+      "subscription_name": "SKYTRAK membership (Essential, Core, or Elite)",
+      "subscription_notes": "The product page says a membership plan unlocks all features in the SKYTRAK app, and includes a 14-day trial. The membership FAQ says the unit can be used without a yearly membership, limited to the Driving Range with ball and club data. Annual plan prices were not on that FAQ page.",
+      "subscription_source_url": "https://www.skytrakgolf.com/pages/software-membership",
+      "summary": "SkyTrak lists the original SKYTRAK Launch Monitor at $695.00, compare-at $1,995.00. The spec block says indoor use and a photometric camera, and names the metrics below.",
+      "specs": {
+        "environment": "indoor",
+        "room_depth_ft": null,
+        "room_depth_note": null,
+        "data_points": [
+          "launch angle",
+          "side angle",
+          "ball speed",
+          "back spin",
+          "side spin",
+          "descent angle",
+          "shot score",
+          "max height",
+          "carry",
+          "total distance",
+          "avg total",
+          "club head speed"
+        ],
+        "gspro_compatible": false,
+        "gspro_note": "GSPro's supported list does not include SkyTrak. It tells readers to ask companies such as SkyTrak if they want GSPro.",
+        "technology": "Photometric camera",
+        "display": "SKYTRAK app"
+      },
+      "extra_links": [
+        {
+          "role": "subscription",
+          "href": "https://www.skytrakgolf.com/pages/software-membership",
+          "label": "SkyTrak membership page",
+          "kind": "outbound"
+        }
+      ],
+      "subscription_annual_cents": null,
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "flightscope-mevo-plus",
+      "brand": "FlightScope",
+      "name": "Mevo+",
+      "featured": true,
+      "price_cents": 109900,
+      "compare_at_cents": 229900,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://flightscope.com/products/mevo-plus",
+      "source_label": "FlightScope",
+      "subscription_required": false,
+      "subscription_annual_cents": 0,
+      "subscription_name": "12-course simulation bundle",
+      "subscription_notes": "The product description says the 12-course simulation bundle comes with zero subscription fees.",
+      "summary": "FlightScope lists Mevo+ at $1,099, compare-at $2,299. The description calls it the final sales phase and says the included 12-course bundle has zero subscription fees.",
+      "specs": {
+        "environment": null,
+        "room_depth_ft": null,
+        "room_depth_note": null,
+        "data_points": [
+          "speed",
+          "spin",
+          "launch",
+          "angle of attack"
+        ],
+        "gspro_compatible": true,
+        "gspro_note": "GSPro's supported list includes Flightscope Mevo+.",
+        "technology": null,
+        "display": null
+      },
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "flightscope-mevo-gen2",
+      "brand": "FlightScope",
+      "name": "Mevo Gen2",
+      "featured": true,
+      "price_cents": 114900,
+      "compare_at_cents": 129900,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://flightscope.com/products/mevo-gen2",
+      "source_label": "FlightScope",
+      "summary": "FlightScope lists Mevo Gen2 at $1,149, compare-at $1,299. A subscription price is not published on that page.",
+      "specs": {
+        "gspro_compatible": true,
+        "gspro_note": "GSPro's supported list includes Flightscope Mevo Gen2."
+      },
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "bushnell-launch-pro",
+      "brand": "Bushnell",
+      "name": "Launch Pro",
+      "featured": true,
+      "price_cents": 299999,
+      "source_url": "https://www.bushnellgolf.com/products/launch-pro",
+      "source_label": "Bushnell Golf",
+      "summary": "Bushnell Golf lists Launch Pro at $2,999.99. GSPro's own page says Launch Pro users must have a Gold subscription before GSPro access. That Gold price is not published on the Bushnell product page, so it is not added to the 3-year cost.",
+      "specs": {
+        "gspro_compatible": true,
+        "gspro_note": "Listed by GSPro. GSPro also says all Bushnell Launch Pro users must have a GOLD level subscription before GSPro access."
+      },
+      "compare_at_cents": null,
+      "price_notes": null,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "foresight-gc3",
+      "brand": "Foresight Sports",
+      "name": "GC3 Launch Monitor",
+      "featured": true,
+      "price_cents": 399900,
+      "compare_at_cents": 699900,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://www.foresightsports.com/products/gc3",
+      "source_label": "Foresight Sports",
+      "summary": "Foresight Sports lists the GC3 at $3,999.00, compare-at $6,999.00. GSPro's page says GC3 users must have FSX 2020 or FSX Play. That software price is not published on the GC3 product page, so it is not added to the 3-year cost.",
+      "specs": {
+        "gspro_compatible": true,
+        "gspro_note": "Listed by GSPro. GSPro also says GC3 users must have FSX 2020 or FSX Play."
+      },
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "voice-caddie-sc4-pro",
+      "brand": "Voice Caddie",
+      "name": "Swing Caddie SC4 PRO Golf Launch Monitor/Driving Range Simulator with Alignment Stand",
+      "featured": true,
+      "price_cents": 49999,
+      "compare_at_cents": 59999,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://voicecaddie.com/products/sc4-pro",
+      "source_label": "Voice Caddie",
+      "summary": "Voice Caddie lists the SC4 PRO at $499.99, compare-at $599.99. It is not on GSPro's supported list read on 2026-11-11.",
+      "specs": {
+        "gspro_compatible": null,
+        "gspro_note": "Not named on GSPro's supported list read on 2026-11-11."
+      },
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "bluetees-rainmaker",
+      "brand": "Blue Tees",
+      "name": "Rainmaker",
+      "featured": true,
+      "price_cents": 49999,
+      "compare_at_cents": 59999,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://blueteesgolf.com/products/rainmaker",
+      "source_label": "Blue Tees Golf",
+      "summary": "Blue Tees' product page lists Rainmaker at $499.99, compare-at $599.99. GSPro's supported list includes Bluetees RAINMAKER.",
+      "specs": {
+        "gspro_compatible": true,
+        "gspro_note": "GSPro's supported list includes Bluetees RAINMAKER."
+      },
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "rapsodo-mlm1",
+      "brand": "Rapsodo",
+      "name": "MLM1",
+      "price_cents": 12999,
+      "compare_at_cents": 24999,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://rapsodo.com/products/mlm1-mobile-launch-monitor",
+      "source_label": "Rapsodo",
+      "summary": "Rapsodo lists MLM1 at $129.99, compare-at $249.99. It is not named on GSPro's supported list.",
+      "specs": {
+        "gspro_compatible": null,
+        "gspro_note": "Not named on GSPro's supported list read on 2026-11-11."
+      },
+      "featured": false,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "rapsodo-mlm2pro",
+      "brand": "Rapsodo",
+      "name": "MLM2PRO",
+      "featured": true,
+      "price_cents": 54999,
+      "compare_at_cents": 69999,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://rapsodo.com/products/mlm2pro-mobile-launch-monitor-golf-simulator",
+      "source_label": "Rapsodo",
+      "subscription_name": "Core Membership",
+      "subscription_notes": "The product description says a 21-day trial Core Membership is included. An annual Core price was not in the product JSON. GSPro's page says the MLM2Pro requires a Rapsodo Premium Membership for GSPro. That membership price is not added here.",
+      "summary": "Rapsodo lists MLM2PRO at $549.99, compare-at $699.99. The description says full functionality indoors and outdoors, dual optical camera plus radar, and names spin rate, spin axis, angle of attack, and club path among 15 metrics.",
+      "specs": {
+        "environment": "both",
+        "room_depth_ft": null,
+        "room_depth_note": null,
+        "data_points": [
+          "spin rate",
+          "spin axis",
+          "angle of attack",
+          "club path"
+        ],
+        "gspro_compatible": true,
+        "gspro_note": "GSPro lists Rapsodo MLM2Pro and says it requires a Rapsodo Premium Membership.",
+        "technology": "Dual optical camera vision and radar",
+        "display": "Apple and Android"
+      },
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "rapsodo-mlm2xpro",
+      "brand": "Rapsodo",
+      "name": "MLM2XPRO",
+      "price_cents": 89999,
+      "source_url": "https://rapsodo.com/products/mlm2xpro-golf-launch-monitor-simulator",
+      "source_label": "Rapsodo",
+      "summary": "Rapsodo lists MLM2XPRO at $899.99. It is not named on GSPro's supported list read on 2026-11-11.",
+      "specs": {
+        "gspro_compatible": null,
+        "gspro_note": "Not named on GSPro's supported list read on 2026-11-11. The list names MLM2Pro, not MLM2XPRO."
+      },
+      "compare_at_cents": null,
+      "price_notes": null,
+      "featured": false,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "square-golf-he",
+      "brand": "Square Golf",
+      "name": "Square Golf HE Launch Monitor",
+      "featured": true,
+      "price_cents": 69900,
+      "source_url": "https://squaregolf.com/products/square-golf-he-launch-monitor",
+      "source_label": "Square Golf",
+      "summary": "Square Golf lists the HE Launch Monitor at $699.00. GSPro's supported list includes Square (Home).",
+      "specs": {
+        "gspro_compatible": true,
+        "gspro_note": "GSPro's supported list includes Square (Home)."
+      },
+      "compare_at_cents": null,
+      "price_notes": null,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "slug": "flightscope-x3c",
+      "brand": "FlightScope",
+      "name": "FlightScope X3C",
+      "price_cents": 1199500,
+      "compare_at_cents": 1499500,
+      "price_notes": "The selling price and a higher compare-at price are both on this product record.",
+      "source_url": "https://flightscope.com/products/flightscope-x3c",
+      "source_label": "FlightScope",
+      "summary": "FlightScope lists the X3C at $11,995, compare-at $14,995. GSPro's list includes FlightScope X3, not the X3C name, so compatibility is left blank.",
+      "specs": {
+        "gspro_compatible": null,
+        "gspro_note": "GSPro lists Flightscope X3. It does not list the X3C by name, so this field is blank."
+      },
+      "featured": false,
+      "subscription_annual_cents": null,
+      "subscription_required": null,
+      "subscription_name": null,
+      "subscription_notes": null,
+      "subscription_source_url": null,
+      "extra_links": [],
+      "category": "launch-monitors",
+      "checked_on": "2026-11-11"
+    }
+  ],
+  "sponsor": {
+    "slug": "open-slot",
+    "name": "This week is open",
+    "tagline": "One sponsor slot. The click count is real.",
+    "url": "/sponsors",
+    "starts_on": "2026-11-09",
+    "ends_on": "2026-12-31"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules
+.next
+.open-next
+.wrangler
+.dev.vars
+data/seed.sql
+*.log
+tsconfig.tsbuildinfo
+.vercel
+dist
+out
